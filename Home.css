@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* c'est la premiere portion */
+.header{
+    background-image: url(/Assets/Illustrations/Home/Bathome1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-bottom: 10%;
+}
+
+.barre{
+    padding: 3% 10%;
+}
+
+.header  ul{
+    list-style-type: none;
+}
+
+.header ul.menu {
+    justify-content: right;
+}
+
+.header ul.menu .home.one{
+    text-align: right;
+}
+
+.header  a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .text{
+    padding: 20%;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.header .text button{
+    background-color: rgba(207, 189, 189, 0.13);
+    border: none;
+    padding: 2%;
+    margin: 2%;
+}
+
+.socialréseau{
+    text-align: center;
+    padding: 20% 0 0;
+}
+
+.socialréseau  img{
+    padding: 5%;
+}
+
+/* c'est la deuxième portion */
+#section2{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15%;
+    padding-bottom: 5%;
+}
+
+#section2 p{
+    text-align: justify;
+}
+
+#section2 .legendes{
+    justify-content: space-between;
+    padding: 0%;
+}
+
+#section2 .legendes img{
+    padding: 4%;
+}
+
+/* 3ème portion */
+#section4{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10%;
+}
+
+#section4 p{
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-right: 3.5%;
+}
+
+/* 5ème portion */
+#section5{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#section5 h3{
+    padding: 0 0 5% 11% ;
+}
+
+#section .row{
+    background-color: #000000;
+}
+footer{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 6%;
+    justify-content: center;
+}
